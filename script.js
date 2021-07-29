@@ -13,7 +13,7 @@ const renderMapAndMarker = function (lat, lng) {
 
   const myMap = L.map('map').setView([lat, lng], 13);
 
-  L.tileLayer(`http://{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}`, {
+  L.tileLayer('http://{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}', {
     maxZoom: 20,
     subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
   }).addTo(myMap);
@@ -73,7 +73,6 @@ const API = async function (IPI_ADDRESS = '') {
 
     const data = await res.json();
     updateResultsUI(data);
-    console.log(data);
 
     const { lat, lng } = data.location;
     renderMapAndMarker(lat, lng);
