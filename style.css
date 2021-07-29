@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#top,
+#footer {
+  background: url('/images/pattern-bg.png');
+}
+
+#top {
+  height: 40vh;
+}
+
+#input-button:hover {
+  background: rgb(65, 63, 63);
+}
+
+#details-row {
+  position: relative;
+  z-index: 1;
+}
+
+#details-row div:not(:last-child) {
+  border-right: 1.5px solid rgb(233, 226, 226);
+}
+
+#map {
+  height: 100vh;
+  position: relative;
+  z-index: 0;
+}
+
+.anchors {
+  text-decoration: none;
+}
+
+/* MOBILE & TABLET DESIGN */
+@media screen and (max-width: 48em) {
+  body {
+    overflow-x: hidden;
+  }
+
+  #details-row div {
+    border: none !important;
+  }
+}
