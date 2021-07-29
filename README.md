@@ -25,13 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/desktop-view.png)
-![](./design/mobile-view.png)
 ![](./design/desktop-active.png)
+![](./design/mobile-view.png)
+![](./design/desktop-view.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [https://ip-tracker-nenad.netlify.app/]
 
 ## My process
