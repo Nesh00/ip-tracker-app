@@ -1,6 +1,4 @@
-# Frontend Mentor - IP address tracker solution
-
-This is a solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+# IP address tracker 
 
 ## Table of contents
 
@@ -13,8 +11,6 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 - [Author](#author)
 
 ## Overview
-
-### The challenge
 
 Users should be able to:
 
@@ -31,6 +27,7 @@ Users should be able to:
 
 ### Links
 
+- GitHub URL: https://github.com/Nesh00/ip-tracker-app
 - Live Site URL: [https://ip-tracker-nenad.netlify.app/]
 
 ## My process
@@ -46,5 +43,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [https://www.frontendmentor.io/profile/Nesh00]
+- LinkedIn - [https://www.linkedin.com/in/nenad-tsvetanovski-3101b474/]
 - Twitter - [https://twitter.com/nenad37452460]
